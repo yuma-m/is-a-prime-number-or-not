@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, big, font, img, small, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%;}
+body {line-height:normal;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+:focus {outline:0;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+
+/* BODY */
+body{
+	background:#fff;
+  	}
+
+html, body{
+	height:100%;
+	}
+
+
+/*============== Fonts =================*/
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans-light-webfont-webfont.eot');
+    src: url('fonts/opensans-light-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-light-webfont-webfont.woff2') format('woff2'),
+         url('fonts/opensans-light-webfont-webfont.woff') format('woff'),
+         url('fonts/opensans-light-webfont-webfont.ttf') format('truetype'),
+         url('fonts/opensans-light-webfont-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/opensans-semibold-webfont-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold-webfont-webfont.woff2') format('woff2'),
+         url('fonts/opensans-semibold-webfont-webfont.woff') format('woff'),
+         url('fonts/opensans-semibold-webfont-webfont.ttf') format('truetype'),
+         url('fonts/opensans-semibold-webfont-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
+
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('fonts/opensans-extrabold-webfont-webfont.eot');
+    src: url('fonts/opensans-extrabold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-extrabold-webfont-webfont.woff2') format('woff2'),
+         url('fonts/opensans-extrabold-webfont-webfont.woff') format('woff'),
+         url('fonts/opensans-extrabold-webfont-webfont.ttf') format('truetype'),
+         url('fonts/opensans-extrabold-webfont-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+/*============== Container =================*/
+.container{
+	display:table;
+	margin:0 auto 0 auto;
+	width:1100px;
+	position:relative;
+	}
+
+.insider{
+	display:table;
+	margin:0 auto 0 auto;
+	width:auto;
+	position:relative;
+	}
+	
+.wrapper{
+	width:100%;
+	padding-top:64px;
+	}
+
+
+/*============== Service Section =================*/
+.service_section{
+	float:left;
+	width:100%;
+	padding:80px 0 80px 0;
+	}
+	
+.service_section h2{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:30px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	background:url(images/border.png) repeat-x center bottom;
+	}
+	
+.service_section h3{
+	text-align:center;
+	font-family: 'open_sanslight';
+	color:#333;
+	font-size: 30px;
+	font-weight:normal;
+	margin:100px 0 20px 0;
+	padding:0 0 30px 0;
+	}
+
+#question_number {
+	font-weight: bold;
+}
+
+
+.service_section .column:last-of-type{
+	float:right;
+	margin:0 0 0 0;
+	}
+
+.service_section .column span{
+	display:table;
+	width:82px;
+	height:82px;
+	border:1px solid #c7c7c7;
+	margin:0 auto 30px auto;
+	transition:0.5s; -webkit-transition:0.5s;
+	border-radius:55px; -webkit-border-radius:55px;
+	text-align:center;
+	font-size:30px;
+	line-height:82px;
+	color:#c7c7c7;
+	}
+
+.service_section .column:hover span{
+	background:#187cc2;
+	border:1px solid #187cc2;
+	color:#fff;
+	}
+
+.service_section .column{
+	float:left;
+	width:265px;
+	margin:0 120px 0 0;
+	padding:0 0 0 0;
+	transition:0.5s; -webkit-transition:0.5s;
+	}
+
+.service_section .column h3{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:18px;
+	color:#4b4b4b;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	}
+
+.service_section p{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#4b4b4b;
+	font-weight:normal;
+	margin:0 0 0 0;
+	}
+
+.answer:hover{
+	cursor: pointer;
+}
+
+
+#result {
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:24px;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+}
+
+.correct {
+	color: #47a447;
+}
+
+.wrong {
+	color: #d2322d;
+}
+
+/*============== Frequently Asked Section =================*/
+.common_section{
+	float:left;
+	width:100%;
+	padding:80px 0 50px 0;
+	}
+
+.common_section h2{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:30px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	}
+
+.common_section h4{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:11px;
+	color:#909090;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0 0 60px 0;
+	padding:0 0 30px 0;
+	background:url(images/border.png) no-repeat center bottom;
+	}
+
+.copyright{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#a5a5a5;
+	margin:0 0 0 0;
+	}
+	
+body a{
+	color:#187cc2;
+	text-decoration:none;
+	}
+
+.common_section h3{
+	font-family: 'open_sanslight';
+	text-align: center;
+}
